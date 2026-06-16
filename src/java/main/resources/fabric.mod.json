@@ -3,29 +3,21 @@
   "id": "sodiumplusplus",
   "version": "${version}",
   "name": "Sodium++",
-  "description": "Advanced performance and rendering tweaks for Sodium.",
+  "description": "Advanced performance mod",
   "authors": ["YourName"],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/sodiumplusplus/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
       "com.example.sodiumplusplus.SodiumPlusPlusMod"
-    ],
-    "modmenu": [
-      "com.example.sodiumplusplus.gui.ModMenuIntegration"
     ]
   },
-  "mixins": [
-    "mixins.sodiumplusplus.json"
-  ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.19.2",
+    "minecraft": "1.21.11",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}",
-    "cloth-config": ">=${cloth_config_version}",
-    "modmenu": ">=${mod_menu_version}",
-    "sodium": "*"
+    "cloth-config": "*",
+    "modmenu": "*"
   }
 }

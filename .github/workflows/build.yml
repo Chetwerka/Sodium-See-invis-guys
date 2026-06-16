@@ -1,6 +1,6 @@
 name: Build Mod
 
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
@@ -12,10 +12,12 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
+      - name: Make gradlew executable
+        run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew clean build
       - name: Upload JAR
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4    # <-- поменял с v3 на v4
         with:
           name: sodiumplusplus
           path: build/libs/*.jar

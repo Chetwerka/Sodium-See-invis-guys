@@ -1,0 +1,36 @@
+{
+  "sodiumplusplus.title": "Sodium++ Config",
+  "sodiumplusplus.category.general": "General",
+  "sodiumplusplus.category.rendering": "Rendering",
+  "sodiumplusplus.category.performance": "Performance",
+  "sodiumplusplus.category.keybinds": "Keybinds",
+
+  "key.sodiumplusplus.toggle_mod": "Toggle Mod",
+  "key.sodiumplusplus.reload_config": "Reload Config",
+  "key.sodiumplusplus.toggle_rendering": "Toggle Rendering",
+  "category.sodiumplusplus": "Sodium++",
+
+  "text.autoconfig.sodiumplusplus.option.enabled": "Enable Mod",
+  "text.autoconfig.sodiumplusplus.option.transparency": "Transparency Slider",
+  "text.autoconfig.sodiumplusplus.option.entityOpacity": "Entity Opacity",
+  "text.autoconfig.sodiumplusplus.option.customGlowColor": "Custom Glow Color",
+  "text.autoconfig.sodiumplusplus.option.renderDistance": "Render Distance",
+  "text.autoconfig.sodiumplusplus.option.throughWallsOutline": "Through-Walls Outline",
+  "text.autoconfig.sodiumplusplus.option.dynamicAlpha": "Dynamic Alpha",
+
+  "text.autoconfig.sodiumplusplus.option.renderPlayers": "Render Players",
+  "text.autoconfig.sodiumplusplus.option.renderPassiveMobs": "Passive Mobs",
+  "text.autoconfig.sodiumplusplus.option.renderHostileMobs": "Hostile Mobs",
+  "text.autoconfig.sodiumplusplus.option.renderAnimals": "Animals",
+  "text.autoconfig.sodiumplusplus.option.renderVillagers": "Villagers",
+  "text.autoconfig.sodiumplusplus.option.renderArmorStands": "Armor Stands",
+  "text.autoconfig.sodiumplusplus.option.customBlacklist": "Custom Blacklist",
+
+  "text.autoconfig.sodiumplusplus.option.distanceCulling": "Distance Culling",
+  "text.autoconfig.sodiumplusplus.option.frustumCulling": "Frustum Culling",
+  "text.autoconfig.sodiumplusplus.option.cachedEntityLists": "Cached Entity Lists",
+  "text.autoconfig.sodiumplusplus.option.tickOptimization": "Tick Optimization",
+  "text.autoconfig.sodiumplusplus.option.renderOptimization": "Render Optimization",
+
+  "text.autoconfig.sodiumplusplus.option.currentPreset": "Current Preset"
+}

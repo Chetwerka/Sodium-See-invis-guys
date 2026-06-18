@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.7.0'
+    id 'net.fabricmc.fabric-loom-remap' version '1.14.1'
     id 'maven-publish'
 }
 
@@ -15,6 +15,19 @@ repositories {
     maven { url 'https://maven.fabricmc.net/' }
     maven { url 'https://maven.shedaniel.me/' }
     maven { url 'https://maven.terraformersmc.com/' }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/java/main']   // <-- если у тебя src/java/main
+            // если у тебя src/main/java, то замени на ['src/main/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources']   // <-- обычно ресурсы тут
+            // если у тебя src/resources, укажи ['src/resources']
+        }
+    }
 }
 
 dependencies {
@@ -47,18 +60,6 @@ java {
     withSourcesJar()
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
-}
-
-// ВОТ ЭТОТ БЛОК — НОВЫЙ
-sourceSets {
-    main {
-        java {
-            srcDirs = ['src/java/main']
-        }
-        resources {
-            srcDirs = ['src/main/resources']
-        }
-    }
 }
 
 jar {

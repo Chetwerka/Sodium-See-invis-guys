@@ -1,18 +1,7 @@
-buildscript {
-    repositories {
-        maven {
-            name = 'Fabric'
-            url = 'https://maven.fabricmc.net/'
-        }
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'net.fabricmc:fabric-loom:1.7.0'
-    }
+plugins {
+    id 'fabric-loom' version '1.7.0'
+    id 'maven-publish'
 }
-
-apply plugin: 'fabric-loom'
-apply plugin: 'maven-publish'
 
 version = project.mod_version
 group = project.maven_group
@@ -58,6 +47,18 @@ java {
     withSourcesJar()
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
+}
+
+// ВОТ ЭТОТ БЛОК — НОВЫЙ
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/java/main']
+        }
+        resources {
+            srcDirs = ['src/main/resources']
+        }
+    }
 }
 
 jar {

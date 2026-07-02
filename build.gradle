@@ -20,12 +20,10 @@ repositories {
 sourceSets {
     main {
         java {
-            srcDirs = ['src/java/main']   // <-- если у тебя src/java/main
-            // если у тебя src/main/java, то замени на ['src/main/java']
+            srcDirs = ['src/java/main']  
         }
         resources {
-            srcDirs = ['src/main/resources']   // <-- обычно ресурсы тут
-            // если у тебя src/resources, укажи ['src/resources']
+            srcDirs = ['src/main/resources']  
         }
     }
 }

@@ -1,21 +1,98 @@
-MIT License
+All Rights Reserved License
+Version 1.0, July 2026
 
-Copyright (c) 2026 Chetwerka
+Copyright © 2026 Chetwerka
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, MODIFICATION,
+AND DISTRIBUTION
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Definitions.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+   "Author" shall mean Chetwerka, the copyright holder of the Work.
+
+   "Work" shall mean the software, source code, compiled binaries,
+   assets, documentation, and all related materials distributed by
+   the Author.
+
+   "You" shall mean any individual or legal entity exercising or
+   attempting to exercise rights relating to the Work.
+
+   "Derivative Work" shall mean any modified, adapted, translated,
+   expanded, reduced, or otherwise altered version of the Work.
+
+2. Ownership.
+
+   The Work is protected by copyright law and all applicable
+   intellectual property laws.
+
+   All rights not expressly granted by this License are reserved by
+   the Author.
+
+3. Grant of Limited Rights.
+
+   Subject to the terms of this License, You are granted permission
+   to:
+
+   (a) Download the Work from an official source;
+
+   (b) Install and use the Work for personal or commercial purposes,
+       unless otherwise restricted by the Author.
+
+4. Restrictions.
+
+   Without the prior written permission of the Author, You may NOT:
+
+   (a) Modify the Work;
+
+   (b) Reverse engineer, decompile, or disassemble the Work,
+       except where applicable law expressly permits;
+
+   (c) Create Derivative Works;
+
+   (d) Redistribute the Work in whole or in part;
+
+   (e) Reupload the Work to any website, repository, or file-sharing
+       service;
+
+   (f) Sell, sublicense, rent, lease, or otherwise commercially
+       distribute the Work;
+
+   (g) Use any source code or assets from the Work in another project.
+
+5. Permission Requests.
+
+   Any permission not expressly granted by this License must be
+   requested directly from the Author.
+
+   Permissions granted by the Author may be revoked at any time
+   unless otherwise agreed in writing.
+
+6. Trademarks.
+
+   This License grants no rights to use the Author's name,
+   trademarks, logos, branding, or project name without prior
+   written permission.
+
+7. Disclaimer of Warranty.
+
+   THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR
+   NON-INFRINGEMENT.
+
+8. Limitation of Liability.
+
+   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DAMAGES,
+   INCLUDING DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+   OR CONSEQUENTIAL DAMAGES ARISING FROM THE USE OF THE WORK.
+
+9. Termination.
+
+   Any violation of this License immediately terminates all rights
+   granted under this License.
+
+   Upon termination, You must immediately cease using and
+   distributing the Work and destroy all copies in Your possession,
+   unless otherwise required by law.
+
+END OF TERMS AND CONDITIONS
